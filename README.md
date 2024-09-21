@@ -1,5 +1,5 @@
 ## Introduction
-In this project I trained a LSTM (Long Short Term Memory) recurrent neural network with 3 layers to predict future stock closing prices. \
+In this project I trained a LSTM (Long Short Term Memory) recurrent neural network with 3 layers to predict future stock closing prices.
 
 **Data Fetching and Preprocessing:** Queried historical stock data in the range of start and end with the yFinance. Fit and transformed the data using Scikit’s MinMaxScaler after reshaping it into a 2D array with one column including Closing Price data. Set the amount of prediction days and prepared the training data sets. The training the data is then converted into a 3D numPy array to allow for reshaping with the third dimension as 1 since it only represents one type of data, Closing Price.
 
