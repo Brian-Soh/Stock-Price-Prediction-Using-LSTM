@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/2845c160-e3c9-4c3a-a965-cfb71fdb81ca)# Stock Price Prediction Using LSTM
-
 ## Introduction
 In this project I trained a LSTM (Long Short Term Memory) recurrent neural network with 3 layers to predict future stock closing prices. \
 
